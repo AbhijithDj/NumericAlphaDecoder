@@ -1,7 +1,6 @@
 module NumericDecoder
 
-	def decode_numeric(val)
-		
+	def self.decode_numeric(val)
 	end
 	
 end
