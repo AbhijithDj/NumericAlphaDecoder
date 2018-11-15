@@ -22,3 +22,6 @@ To get give you an initial verifiation, the following must be true:
 2282668687 should return the following list [["act", "amounts"], ["act", "contour"], ["acta", "mounts"], ["bat", "amounts"], ["bat", "contour"], ["cat", "contour"], "catamounts"]
 
 The conversion of a 10 digit phone number should be performed within 1000ms.
+
+Running Spec: bundle exec rspec spec/numeric_decoder_spec.rb
+Usage: bundle exec ruby digit_decoder.rb 6686787825
